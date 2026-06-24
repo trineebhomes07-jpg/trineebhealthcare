@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trineeb Healthcare | Premium Healthcare Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="brand-mark">
+            <span class="brand-symbol">T</span>
+            <div>
+              <p class="brand-name">Trineeb Healthcare</p>
+              <p class="brand-tag">Premium care, Skin And wellness Center</p>
+            </div>
+          </div>
+
+          <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav-links" aria-label="Primary Navigation">
+            <a href="#why">Why Choose Us</a>
+            <a href="#services">Services</a>
+            <a href="#packages">Packages</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <a class="button button-secondary" href="#appointment">Book Appointment</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <div class="hero-copy">
+            <span class="eyebrow">Trusted Healthcare Excellence</span>
+            <h1>Your Health, Our Commitment</h1>
+            <p>Comprehensive healthcare solutions designed around compassion, expertise, and excellence.</p>
+            <div class="hero-cta">
+              <a class="button button-primary" href="#appointment">Book Appointment</a>
+              <a class="button button-outline" href="#doctors">Consult a Specialist</a>
+            </div>
+            <div class="trust-bar">
+              <span>✓ Experienced Doctors</span>
+              <span>✓ Advanced Medical Care</span>
+              <span>✓ Patient-Centered Treatment</span>
+              <span>✓ Modern Diagnostics</span>
+              <span>✓ 24/7 Healthcare Support</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card hero-card-glass">
+              <h2>Schedule an Appointment</h2>
+              <p>Choose your preferred date and specialist with ease.</p>
+              <form class="appointment-form" id="quick-appointment-form">
+                <label>Full Name<input name="name" type="text" placeholder="Enter your name" required /></label>
+                <label>Phone Number<input name="phone" type="tel" placeholder="Mobile number" required /></label>
+                <label>Preferred Service<select name="service" required>
+                    <option value="General Consultation">General Consultation</option>
+                    <option value="Cardiology">Cardiology</option>
+                    <option value="Diagnostic Services">Diagnostic Services</option>
+                  </select></label>
+                <button class="button button-primary" type="submit">Book Now</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section id="why" class="section-block section-light">
+          <div class="section-header">
+            <span>Why Choose Trineeb Healthcare</span>
+            <h2>Premium care with unwavering trust</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <p class="feature-icon">🩺</p>
+              <h3>Experienced Medical Professionals</h3>
+              <p>Board-certified specialists delivering expert guidance and accurate treatment.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-icon">🔬</p>
+              <h3>Advanced Diagnostic Facilities</h3>
+              <p>State-of-the-art diagnostics for faster insights, precise care, and peace of mind.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-icon">📋</p>
+              <h3>Personalized Treatment Plans</h3>
+              <p>Individualized care strategies tailored to your health goals and lifestyle.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-icon">🏥</p>
+              <h3>Modern Healthcare Infrastructure</h3>
+              <p>Luxurious patient spaces and modern facilities designed for comfort and confidence.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-icon">🛡️</p>
+              <h3>Preventive Healthcare Programs</h3>
+              <p>Proactive wellness support to help maintain long-term health and vitality.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-icon">❤️</p>
+              <h3>Compassionate Patient Care</h3>
+              <p>Every visit is delivered with empathy, respect, and a focus on your wellbeing.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="services" class="section-block section-dark">
+          <div class="section-header section-header-light">
+            <span>Our Medical Services</span>
+            <h2>Comprehensive care across every specialty</h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card"><span>👨‍⚕</span><h3>General Physician</h3></article>
+            <article class="service-card"><span>❤️</span><h3>Cardiology</h3></article>
+            <article class="service-card"><span>🧠</span><h3>Neurology</h3></article>
+            <article class="service-card"><span>🦴</span><h3>Orthopedics</h3></article>
+            <article class="service-card"><span>👶</span><h3>Pediatrics</h3></article>
+            <article class="service-card"><span>👩</span><h3>Women's Health</h3></article>
+            <article class="service-card"><span>🩺</span><h3>Preventive Checkups</h3></article>
+            <article class="service-card"><span>🔬</span><h3>Diagnostic Services</h3></article>
+            <article class="service-card"><span>🏥</span><h3>Emergency Care</h3></article>
+            <article class="service-card"><span>🚑</span><h3>Home Healthcare</h3></article>
+          </div>
+        </section>
+
+        <section id="packages" class="section-block section-light">
+          <div class="section-header">
+            <span>Health Checkup Packages</span>
+            <h2>Curated packages for every stage of care</h2>
+          </div>
+          <div class="package-grid">
+            <article class="package-card">
+              <h3>Basic Health Checkup</h3>
+              <p class="price">₹2,499</p>
+              <ul>
+                <li>General health screening</li>
+                <li>Blood profile</li>
+                <li>Doctor consultation</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+            <article class="package-card">
+              <h3>Executive Health Checkup</h3>
+              <p class="price">₹4,999</p>
+              <ul>
+                <li>Advanced diagnostics</li>
+                <li>Cardiac profile</li>
+                <li>Wellness counseling</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+            <article class="package-card">
+              <h3>Senior Citizen Wellness</h3>
+              <p class="price">₹5,499</p>
+              <ul>
+                <li>Age-specific screening</li>
+                <li>Bone health review</li>
+                <li>Chronic care plan</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+            <article class="package-card">
+              <h3>Women’s Health Package</h3>
+              <p class="price">₹3,799</p>
+              <ul>
+                <li>Hormone screening</li>
+                <li>Gynecological review</li>
+                <li>Nutrition guidance</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+            <article class="package-card">
+              <h3>Diabetes Screening</h3>
+              <p class="price">₹2,999</p>
+              <ul>
+                <li>Glucose tests</li>
+                <li>Diet assessment</li>
+                <li>Preventive coaching</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+            <article class="package-card">
+              <h3>Heart Care Package</h3>
+              <p class="price">₹6,499</p>
+              <ul>
+                <li>ECG & Echo</li>
+                <li>Heart risk evaluation</li>
+                <li>Preventive care plan</li>
+              </ul>
+              <a class="button button-outline" href="#appointment">Book Now</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="doctors" class="section-block section-dark">
+          <div class="section-header section-header-light">
+            <span>Specialist Doctors</span>
+            <h2>Trusted expertise in every consultation</h2>
+          </div>
+          <div class="doctor-grid">
+            <article class="doctor-card">
+              <div class="doctor-photo"></div>
+              <div class="doctor-info">
+                <h3>Dr. Aisha Mehta</h3>
+                <p>Cardiology</p>
+                <p>15 years experience</p>
+                <p>Available: Mon-Fri, 9am-5pm</p>
+                <a class="button button-outline" href="#appointment">Book Appointment</a>
+              </div>
+            </article>
+            <article class="doctor-card">
+              <div class="doctor-photo doctor-photo-alt"></div>
+              <div class="doctor-info">
+                <h3>Dr. Neeraj Kapoor</h3>
+                <p>Neurology</p>
+                <p>14 years experience</p>
+                <p>Available: Tue- Sat, 10am-6pm</p>
+                <a class="button button-outline" href="#appointment">Book Appointment</a>
+              </div>
+            </article>
+            <article class="doctor-card">
+              <div class="doctor-photo doctor-photo-alt2"></div>
+              <div class="doctor-info">
+                <h3>Dr. Riya Sharma</h3>
+                <p>Women's Health</p>
+                <p>12 years experience</p>
+                <p>Available: Mon-Fri, 11am-4pm</p>
+                <a class="button button-outline" href="#appointment">Book Appointment</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block section-light">
+          <div class="section-header">
+            <span>Advanced Facilities</span>
+            <h2>Luxury care with clinical excellence</h2>
+          </div>
+          <div class="facility-grid">
+            <div class="facility-card"><span>🏥</span><p>Modern Laboratories</p></div>
+            <div class="facility-card"><span>🩻</span><p>Advanced Imaging Center</p></div>
+            <div class="facility-card"><span>💊</span><p>Pharmacy Services</p></div>
+            <div class="facility-card"><span>🚑</span><p>Emergency Unit</p></div>
+            <div class="facility-card"><span>🔧</span><p>Operation Theatres</p></div>
+            <div class="facility-card"><span>🛌</span><p>Patient Care Rooms</p></div>
+            <div class="facility-card"><span>📁</span><p>Digital Health Records</p></div>
+            <div class="facility-card"><span>💻</span><p>Telemedicine Services</p></div>
+          </div>
+        </section>
+
+        <section class="section-block section-dark">
+          <div class="section-header section-header-light">
+            <span>Patient Journey</span>
+            <h2>A refined path to wellness and recovery</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-step">1. Appointment Booking</div>
+            <div class="timeline-step">2. Initial Consultation</div>
+            <div class="timeline-step">3. Diagnostic Evaluation</div>
+            <div class="timeline-step">4. Treatment Planning</div>
+            <div class="timeline-step">5. Personalized Care</div>
+            <div class="timeline-step">6. Recovery & Follow-Up</div>
+          </div>
+        </section>
+
+        <section class="section-block section-light">
+          <div class="section-header">
+            <span>Patient Testimonials</span>
+            <h2>Stories of care, confidence, and comfort</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p class="quote">“The team at Trineeb cared for me like family. My treatment was precise and comforting.”</p>
+              <div class="testimonial-meta">
+                <span class="patient-name">Priya S.</span>
+                <span>Cardiology</span>
+                <span>★★★★★</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p class="quote">“Exceptional facilities and a warm experience made my recovery effortless.”</p>
+              <div class="testimonial-meta">
+                <span class="patient-name">Rahul K.</span>
+                <span>Neurology</span>
+                <span>★★★★★</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p class="quote">“From booking to follow-up, every step felt premium and genuinely supportive.”</p>
+              <div class="testimonial-meta">
+                <span class="patient-name">Anjali P.</span>
+                <span>Preventive Care</span>
+                <span>★★★★★</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block section-dark">
+          <div class="section-header section-header-light">
+            <span>Health & Wellness Insights</span>
+            <h2>Expert advice for lasting vitality</h2>
+          </div>
+          <div class="blog-grid">
+            <article class="blog-card"><h3>Healthy Living Tips</h3><p>Small habits that create long-term health benefits.</p></article>
+            <article class="blog-card"><h3>Preventive Healthcare</h3><p>How early screening keeps your family safer.</p></article>
+            <article class="blog-card"><h3>Nutrition Advice</h3><p>Balanced meal choices for a stronger body and mind.</p></article>
+            <article class="blog-card"><h3>Fitness & Wellness</h3><p>Smart routines for energy, strength, and resilience.</p></article>
+            <article class="blog-card"><h3>Mental Health Awareness</h3><p>Supportive guidance for emotional wellbeing.</p></article>
+            <article class="blog-card"><h3>Lifestyle Management</h3><p>Design your schedule around health, balance, and rest.</p></article>
+          </div>
+        </section>
+
+        <section id="contact" class="section-block section-light contact-banner">
+          <div class="contact-panel">
+            <h2>Emergency & Contact Information</h2>
+            <p>24/7 support, ambulance assistance, and rapid appointment coordination.</p>
+            <div class="contact-points">
+              <div><strong>24/7 Support</strong><span>Available around the clock</span></div>
+              <div><strong>Emergency Number</strong><span>+91 98765 43210</span></div>
+              <div><strong>Ambulance Assistance</strong><span>Immediate response team</span></div>
+            </div>
+            <a class="button button-primary" href="#appointment">Quick Appointment Booking</a>
+          </div>
+        </section>
+
+        <section id="appointment" class="section-block section-dark appointment-section">
+          <div class="section-header section-header-light">
+            <span>Book Appointment</span>
+            <h2>Schedule Your Consultation Today</h2>
+          </div>
+          <div class="appointment-grid">
+            <div class="appointment-copy">
+              <p>Secure a tailored consultation with our trusted specialists and enjoy a seamless, premium booking experience.</p>
+              <ul>
+                <li>Fast appointment confirmation</li>
+                <li>Preferred doctor selection</li>
+                <li>Flexible date and time options</li>
+              </ul>
+              <a class="button button-outline" href="#contact">Need Support?</a>
+            </div>
+            <form class="appointment-form-full" id="full-appointment-form">
+              <label>Full Name<input name="name" type="text" placeholder="Your full name" required /></label>
+              <label>Mobile Number<input name="phone" type="tel" placeholder="Mobile number" required /></label>
+              <label>Email Address<input name="email" type="email" placeholder="Email address" required /></label>
+              <label>Preferred Doctor<select name="doctor" required>
+                  <option value="Dr. Aisha Mehta">Dr. Aisha Mehta</option>
+                  <option value="Dr. Neeraj Kapoor">Dr. Neeraj Kapoor</option>
+                  <option value="Dr. Riya Sharma">Dr. Riya Sharma</option>
+                </select></label>
+              <label>Preferred Date<input name="preferredDate" type="date" required /></label>
+              <label>Health Concern<textarea name="concern" rows="4" placeholder="Briefly describe your concern"></textarea></label>
+              <button class="button button-primary" type="submit">Book Appointment</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="section-block section-light about-section">
+          <div class="about-copy">
+            <span>About Trineeb Healthcare</span>
+            <h2>Delivering quality healthcare through expertise and compassion</h2>
+            <p>Trineeb Healthcare is dedicated to delivering quality healthcare services through expert medical professionals, advanced facilities, and patient-centered care. Our mission is to improve lives through accessible, compassionate, and innovative healthcare solutions.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-column footer-about">
+            <h3>About Us</h3>
+            <p>Premium healthcare with a warm, patient-first experience across diagnostics, consultations, and recovery.</p>
+          </div>
+          <div class="footer-column footer-links">
+            <h3>Explore</h3>
+            <a href="#services">Medical Services</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#packages">Health Packages</a>
+            <a href="#appointment">Appointments</a>
+          </div>
+          <div class="footer-column footer-contact">
+            <h3>Contact</h3>
+            <p>+91 98765 43210</p>
+            <p>support@trineebhealthcare.com</p>
+            <p>WhatsApp: +91 98765 43210</p>
+            <p>24/7 Emergency Assistance</p>
+          </div>
+          <div class="footer-column footer-social">
+            <h3>Connect</h3>
+            <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-note-wrap">
+          <p class="footer-note">© 2026 Trineeb Healthcare. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js" defer></script>
+
+    <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20healthcare%20consultation%20with%20Trineeb%20Healthcare" target="_blank" rel="noreferrer noopener" class="wa-float" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </body>
+</html>
